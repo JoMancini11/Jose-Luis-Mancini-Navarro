@@ -1,0 +1,70 @@
+Footer {
+    background-color: $color-principal;
+
+    .FooterContainer {
+        width: 100%;
+        padding: 70px 30px 20px;
+
+        .SocialIcons {
+            @include flex(flex, center);
+
+            a {
+                text-decoration: none;
+                padding: 10px;
+                background-color: $color-textodos;
+                margin: 20px;
+                border-radius: 50%;
+
+                i {
+                    font-size: 2.5em;
+                    color: $color-principal;
+                    opacity: 0.9;
+                }
+
+                &:hover {
+                    background-color: $color-principal;
+                    transition: 0.5s;
+                    border-radius: 35%;
+
+                    i {
+                        color: $color-secundario;
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+
+        .FooterNav {
+            margin: 30px 0;
+
+            ul {
+                display: flex;
+                @extend %flex-center;
+
+                li a {
+                    color: $color-textodos;
+                    margin: 20px;
+                    text-decoration: none;
+                    font-size: 1.3em;
+                    opacity: 0.7;
+                    transition: 0.5s;
+
+                    &:hover {
+                        opacity: 1;
+                        color: $color-secundario;
+                    }
+                }
+            }
+        }
+
+        .FooterBotton {
+            background-color: map-get($boton, bg-botton);
+            padding: 20px;
+            text-align: center;
+
+            p {
+                color: $color-textodos;
+            }
+        }
+    }
+}

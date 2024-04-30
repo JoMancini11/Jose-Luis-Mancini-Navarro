@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+$color-principal: Black;
+$color-secundario: rgb(161, 75, 218);
+$color-terceario: blueviolet;
+$color-cuarto: rgb(22, 21, 21);
+$color-textouno: black;
+$color-textodos: white;
+
+$colores: black, rgb(161, 75, 218), blueviolet, rgb(22, 21, 21), white;
+
+$ancho: 150px;
+
+$boton: (
+    bg-botton:black,
+    boder-boton:2px solid red,
+    color-text:white,
+);
+
+%flex-center {
+    justify-content: center;
+}
+
+@mixin flex($flex, $justify) {
+    display: $flex;
+    justify-content: $justify;
+}

@@ -1,0 +1,49 @@
+.nav-link {
+    color: $color-textodos;
+
+    &:hover {
+        color: $color-terceario;
+    }
+}
+
+.BaNav-color {
+    background-color: nth($colores, 1);
+}
+
+nav img {
+    width: $ancho + 100;
+    height: 150px;
+}
+
+.dropdown-toggle {
+    color: $color-secundario;
+
+    &:hover {
+        color: $color-terceario;
+    }
+}
+
+.navbar-toggler-icon {
+    background-color: $color-secundario;
+    color: $color-principal;
+    border: 2px solid $color-secundario;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.boton {
+    background-color: $color-secundario;
+    color: $color-principal;
+    border: 2px solid $color-secundario;
+    border-radius: 50px;
+    padding: 5px;
+
+    &:hover {
+        background-color: $color-secundario;
+        color: $color-textodos;
+    }
+}
+
+.form-control {
+    border-radius: 50px;
+}

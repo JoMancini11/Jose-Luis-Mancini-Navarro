@@ -1,0 +1,477 @@
+.Preinicio {
+    background-image: url(../img/SFP.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+
+    h1 {
+        text-align: center;
+        text-decoration: none;
+        background-color: $color-secundario;
+        border: none;
+        padding: 5px 32px;
+        color: $color-textodos;
+        font-size: 30px;
+        font-weight: bold;
+        position: relative;
+        border-radius: 12px;
+    }
+}
+
+.Iniciop {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    div {
+        width: 50%;
+
+        h2 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    img {
+        width: 400px;
+        height: 400px;
+        border-radius: 40%;
+        margin: 30px;
+    }
+}
+
+.Iniciodos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    div {
+        width: 50%;
+
+        h2 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    img {
+        width: 400px;
+        height: 400px;
+        border-radius: 40%;
+    }
+}
+
+.Iniciotres {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    div {
+        margin: 40px;
+
+        h2 {
+            text-align: center;
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+.Iniciocuatro {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    div h2 {
+        text-align: center;
+        font-size: 60px;
+        margin-bottom: 40px;
+    }
+
+    .card {
+        width: 18rem;
+    }
+}
+
+.btn {
+    background-color: $color-secundario;
+    color: $color-textouno;
+    border: 2px solid $color-secundario;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.Inicioquinto {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    div {
+        width: 50%;
+
+        h2 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+.Pluinicio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    div {
+        width: 50%;
+
+        h2 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    img {
+        width: 400px;
+        height: 400px;
+        border-radius: 40%;
+        margin: 30px;
+    }
+}
+
+.Pluiniciodos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    div {
+        width: 50%;
+
+        h2 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    img {
+        width: 400px;
+        height: 400px;
+        border-radius: 40%;
+    }
+}
+
+.Pluiniciotres {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    div {
+        margin: 40px;
+
+        h2 {
+            text-align: center;
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+.TodPag {
+    min-height: 30vh;
+    width: 90%;
+    outline: 2px solid $color-secundario;
+    margin: 4px auto;
+    border-radius: 5px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+
+    img {
+        width: 98%;
+        height: 300px;
+        border-radius: 10px;
+        margin: 10px;
+        background-color: $color-principal;
+    }
+}
+
+.PlEinicio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    div {
+        width: 50%;
+
+        h2 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    img {
+        width: 400px;
+        height: 400px;
+        border-radius: 40%;
+        margin: 30px;
+    }
+}
+
+.PlEiniciodos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    div {
+        width: 50%;
+
+        h2 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    img {
+        width: 400px;
+        height: 400px;
+        border-radius: 40%;
+    }
+}
+
+.PlEiniciotres {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    div {
+        margin: 40px;
+
+        h2 {
+            text-align: center;
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+.contacto-section {
+    background-color: $color-cuarto;
+    padding: 20px;
+    margin-bottom: 0px;
+
+    h3 {
+        font-size: 40px;
+        color: $color-terceario;
+        margin-bottom: 15px;
+    }
+
+    .contacto-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .contacto-info,
+    .contacto-formulario {
+        margin-bottom: 20px;
+
+        h4 {
+            color: $color-textodos;
+        }
+
+        p {
+            color: $color-textodos;
+        }
+    }
+
+    .contacto-formulario {
+        h4 {
+            font-size: 35px;
+            color: $color-secundario;
+            margin-bottom: 10px;
+        }
+
+        form {
+            font-size: 16px;
+
+            .formulario-group {
+                margin-bottom: 15px;
+                color: $color-textodos;
+
+                label {
+                    display: block;
+                    margin-bottom: 5px;
+                }
+
+                input,
+                textarea {
+                    width: 100%;
+                    padding: 10px;
+                    border-radius: 5px;
+                    border: 1px solid $color-secundario;
+                }
+            }
+
+            .BotonContac {
+                padding: 10px 20px;
+                background-color: $color-secundario;
+                color: white;
+                border: none;
+                border-radius: 50px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+
+                &:hover {
+                    background-color: $color-terceario;
+                }
+            }
+        }
+    }
+}
+
+.Nosot-section {
+    background-color: $color-cuarto;
+    padding: 20px;
+    margin-bottom: 0px;
+
+    h2 {
+        font-size: 40px;
+        color: $color-textodos;
+        margin-bottom: 50px;
+        text-align: center;
+        height: 30px;
+    }
+
+    .Nosot-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .Nosot-item {
+        margin-bottom: 20px;
+
+        h4 {
+            font-size: 20px;
+            color: $color-secundario;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            color: $color-textodos;
+        }
+    }
+}
+
+.donar-section {
+    background-color: $color-cuarto;
+    padding: 20px;
+    margin-bottom: 0px;
+
+    h3 {
+        font-size: 40px;
+        color: $color-textodos;
+        margin-bottom: 50px;
+        text-align: center;
+        height: 30px;
+    }
+
+    .donar-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .donar-info,
+    .donar-form {
+        color: $color-textodos;
+
+        h4 {
+            font-size: 20px;
+            color: $color-secundario;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: $color-textodos;
+        }
+
+        form {
+            font-size: 16px;
+
+            .formulariodonar-group {
+                margin-bottom: 15px;
+
+                label {
+                    display: block;
+                    margin-bottom: 5px;
+                }
+
+                input,
+                select {
+                    width: 100%;
+                    padding: 10px;
+                    border-radius: 5px;
+                    border: 1px solid $color-secundario;
+                }
+            }
+
+            .BotonDonar {
+                padding: 10px 20px;
+                background-color: $color-secundario;
+                color: $color-textodos;
+                border: none;
+                border-radius: 50px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+
+                &:hover {
+                    background-color: $color-terceario;
+                }
+            }
+        }
+    }
+}

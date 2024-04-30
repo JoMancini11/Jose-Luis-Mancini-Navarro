@@ -1,0 +1,109 @@
+/* Celular */
+@media (max-width: 594px) {
+
+    .Iniciop,
+    .Iniciodos,
+    .Iniciotres,
+    .Iniciocuatro,
+    .Inicioquinto,
+    .Pluinicio,
+    .Pluiniciodos,
+    .Pluiniciotres,
+    .PlEinicio,
+    .PlEiniciodos,
+    .PlEiniciotres {
+        flex-direction: column;
+        text-align: start;
+    }
+
+    .Iniciop img,
+    .Iniciodos img,
+    .Iniciotres img,
+    .Iniciocuatro div,
+    .Inicioquinto img,
+    .Pluinicio img,
+    .Pluiniciodos img,
+    .Pluiniciotres img,
+    .PlEinicio img,
+    .PlEiniciodos img,
+    .PlEiniciotres img {
+        width: 50%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .Iniciop div h2,
+    .Iniciodos div h2,
+    .Iniciotres div h2,
+    .Iniciocuatro div h2,
+    .Inicioquinto div h2,
+    .Pluinicio div h2,
+    .Pluiniciodos div h2,
+    .Pluiniciotres div h2,
+    .PlEinicio div h2,
+    .PlEiniciodos div h2,
+    .PlEiniciotres div h2,
+    .PlEiniciotres div p {
+        font-size: 18px;
+        margin-bottom: 10px;
+        line-height: 1.5;
+    }
+
+    .Iniciop div p,
+    .Iniciodos div p,
+    .Iniciotres div p,
+    .Iniciocuatro div p,
+    .Inicioquinto div p,
+    .Pluinicio div p,
+    .Pluiniciodos div p,
+    .Pluiniciotres div p,
+    .PlEinicio div p,
+    .PlEiniciodos div p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .SocialIcons {
+        display: none;
+    }
+
+    .FooterNav ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+/* Tablet */
+@media (min-width: 595px) and (max-width: 895px) {
+
+    .Iniciop,
+    .Iniciodos,
+    .Iniciotres,
+    .Iniciocuatro,
+    .Inicioquinto,
+    .Pluinicio,
+    .Pluiniciodos,
+    .Pluiniciotres,
+    .PlEinicio,
+    .PlEiniciodos,
+    .PlEiniciotres {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Iniciop img,
+    .Iniciodos img,
+    .Iniciotres img,
+    .Iniciocuatro div,
+    .Inicioquinto img,
+    .Pluinicio img,
+    .Pluiniciodos img,
+    .Pluiniciotres img,
+    .PlEinicio img,
+    .PlEiniciodos img,
+    .PlEiniciotres img {
+        width: 80%;
+        margin: 20px auto;
+    }
+}

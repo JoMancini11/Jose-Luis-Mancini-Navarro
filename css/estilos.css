@@ -1,0 +1,516 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none; }
+
+Footer .FooterContainer .FooterNav ul {
+  justify-content: center; }
+
+.nav-link {
+  color: white; }
+  .nav-link:hover {
+    color: blueviolet; }
+
+.BaNav-color {
+  background-color: black; }
+
+nav img {
+  width: 250px;
+  height: 150px; }
+
+.dropdown-toggle {
+  color: #a14bda; }
+  .dropdown-toggle:hover {
+    color: blueviolet; }
+
+.navbar-toggler-icon {
+  background-color: #a14bda;
+  color: Black;
+  border: 2px solid #a14bda;
+  border-radius: 50px;
+  padding: 5px; }
+
+.boton {
+  background-color: #a14bda;
+  color: Black;
+  border: 2px solid #a14bda;
+  border-radius: 50px;
+  padding: 5px; }
+  .boton:hover {
+    background-color: #a14bda;
+    color: white; }
+
+.form-control {
+  border-radius: 50px; }
+
+.Preinicio {
+  background-image: url(../img/SFP.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 500px; }
+  .Preinicio h1 {
+    text-align: center;
+    text-decoration: none;
+    background-color: #a14bda;
+    border: none;
+    padding: 5px 32px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px; }
+
+.Iniciop {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .Iniciop div {
+    width: 50%; }
+    .Iniciop div h2 {
+      font-size: 50px;
+      margin-bottom: 20px; }
+    .Iniciop div p {
+      font-size: 20px; }
+  .Iniciop img {
+    width: 400px;
+    height: 400px;
+    border-radius: 40%;
+    margin: 30px; }
+
+.Iniciodos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .Iniciodos div {
+    width: 50%; }
+    .Iniciodos div h2 {
+      font-size: 50px;
+      margin-bottom: 20px; }
+    .Iniciodos div p {
+      font-size: 20px; }
+  .Iniciodos img {
+    width: 400px;
+    height: 400px;
+    border-radius: 40%; }
+
+.Iniciotres {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .Iniciotres div {
+    margin: 40px; }
+    .Iniciotres div h2 {
+      text-align: center;
+      font-size: 50px;
+      margin-bottom: 20px; }
+    .Iniciotres div p {
+      font-size: 20px; }
+
+.Iniciocuatro {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .Iniciocuatro div h2 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 40px; }
+  .Iniciocuatro .card {
+    width: 18rem; }
+
+.btn {
+  background-color: #a14bda;
+  color: black;
+  border: 2px solid #a14bda;
+  border-radius: 50px;
+  padding: 5px; }
+
+.Inicioquinto {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .Inicioquinto div {
+    width: 50%; }
+    .Inicioquinto div h2 {
+      font-size: 50px;
+      margin-bottom: 20px; }
+    .Inicioquinto div p {
+      font-size: 20px; }
+
+.Pluinicio {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .Pluinicio div {
+    width: 50%; }
+    .Pluinicio div h2 {
+      font-size: 50px;
+      margin-bottom: 20px; }
+    .Pluinicio div p {
+      font-size: 20px; }
+  .Pluinicio img {
+    width: 400px;
+    height: 400px;
+    border-radius: 40%;
+    margin: 30px; }
+
+.Pluiniciodos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .Pluiniciodos div {
+    width: 50%; }
+    .Pluiniciodos div h2 {
+      font-size: 50px;
+      margin-bottom: 20px; }
+    .Pluiniciodos div p {
+      font-size: 20px; }
+  .Pluiniciodos img {
+    width: 400px;
+    height: 400px;
+    border-radius: 40%; }
+
+.Pluiniciotres {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .Pluiniciotres div {
+    margin: 40px; }
+    .Pluiniciotres div h2 {
+      text-align: center;
+      font-size: 50px;
+      margin-bottom: 20px; }
+    .Pluiniciotres div p {
+      font-size: 20px; }
+
+.TodPag {
+  min-height: 30vh;
+  width: 90%;
+  outline: 2px solid #a14bda;
+  margin: 4px auto;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); }
+  .TodPag img {
+    width: 98%;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: Black; }
+
+.PlEinicio {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .PlEinicio div {
+    width: 50%; }
+    .PlEinicio div h2 {
+      font-size: 50px;
+      margin-bottom: 20px; }
+    .PlEinicio div p {
+      font-size: 20px; }
+  .PlEinicio img {
+    width: 400px;
+    height: 400px;
+    border-radius: 40%;
+    margin: 30px; }
+
+.PlEiniciodos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .PlEiniciodos div {
+    width: 50%; }
+    .PlEiniciodos div h2 {
+      font-size: 50px;
+      margin-bottom: 20px; }
+    .PlEiniciodos div p {
+      font-size: 20px; }
+  .PlEiniciodos img {
+    width: 400px;
+    height: 400px;
+    border-radius: 40%; }
+
+.PlEiniciotres {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .PlEiniciotres div {
+    margin: 40px; }
+    .PlEiniciotres div h2 {
+      text-align: center;
+      font-size: 50px;
+      margin-bottom: 20px; }
+    .PlEiniciotres div p {
+      font-size: 20px; }
+
+.contacto-section {
+  background-color: #161515;
+  padding: 20px;
+  margin-bottom: 0px; }
+  .contacto-section h3 {
+    font-size: 40px;
+    color: blueviolet;
+    margin-bottom: 15px; }
+  .contacto-section .contacto-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; }
+  .contacto-section .contacto-info,
+  .contacto-section .contacto-formulario {
+    margin-bottom: 20px; }
+    .contacto-section .contacto-info h4,
+    .contacto-section .contacto-formulario h4 {
+      color: white; }
+    .contacto-section .contacto-info p,
+    .contacto-section .contacto-formulario p {
+      color: white; }
+  .contacto-section .contacto-formulario h4 {
+    font-size: 35px;
+    color: #a14bda;
+    margin-bottom: 10px; }
+  .contacto-section .contacto-formulario form {
+    font-size: 16px; }
+    .contacto-section .contacto-formulario form .formulario-group {
+      margin-bottom: 15px;
+      color: white; }
+      .contacto-section .contacto-formulario form .formulario-group label {
+        display: block;
+        margin-bottom: 5px; }
+      .contacto-section .contacto-formulario form .formulario-group input,
+      .contacto-section .contacto-formulario form .formulario-group textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #a14bda; }
+    .contacto-section .contacto-formulario form .BotonContac {
+      padding: 10px 20px;
+      background-color: #a14bda;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background-color 0.3s ease; }
+      .contacto-section .contacto-formulario form .BotonContac:hover {
+        background-color: blueviolet; }
+
+.Nosot-section {
+  background-color: #161515;
+  padding: 20px;
+  margin-bottom: 0px; }
+  .Nosot-section h2 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 50px;
+    text-align: center;
+    height: 30px; }
+  .Nosot-section .Nosot-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px; }
+  .Nosot-section .Nosot-item {
+    margin-bottom: 20px; }
+    .Nosot-section .Nosot-item h4 {
+      font-size: 20px;
+      color: #a14bda;
+      margin-bottom: 10px; }
+    .Nosot-section .Nosot-item p {
+      font-size: 16px;
+      color: white; }
+
+.donar-section {
+  background-color: #161515;
+  padding: 20px;
+  margin-bottom: 0px; }
+  .donar-section h3 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 50px;
+    text-align: center;
+    height: 30px; }
+  .donar-section .donar-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; }
+  .donar-section .donar-info,
+  .donar-section .donar-form {
+    color: white; }
+    .donar-section .donar-info h4,
+    .donar-section .donar-form h4 {
+      font-size: 20px;
+      color: #a14bda;
+      margin-bottom: 10px; }
+    .donar-section .donar-info p,
+    .donar-section .donar-form p {
+      color: white; }
+    .donar-section .donar-info form,
+    .donar-section .donar-form form {
+      font-size: 16px; }
+      .donar-section .donar-info form .formulariodonar-group,
+      .donar-section .donar-form form .formulariodonar-group {
+        margin-bottom: 15px; }
+        .donar-section .donar-info form .formulariodonar-group label,
+        .donar-section .donar-form form .formulariodonar-group label {
+          display: block;
+          margin-bottom: 5px; }
+        .donar-section .donar-info form .formulariodonar-group input,
+        .donar-section .donar-info form .formulariodonar-group select,
+        .donar-section .donar-form form .formulariodonar-group input,
+        .donar-section .donar-form form .formulariodonar-group select {
+          width: 100%;
+          padding: 10px;
+          border-radius: 5px;
+          border: 1px solid #a14bda; }
+      .donar-section .donar-info form .BotonDonar,
+      .donar-section .donar-form form .BotonDonar {
+        padding: 10px 20px;
+        background-color: #a14bda;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: background-color 0.3s ease; }
+        .donar-section .donar-info form .BotonDonar:hover,
+        .donar-section .donar-form form .BotonDonar:hover {
+          background-color: blueviolet; }
+
+Footer {
+  background-color: Black; }
+  Footer .FooterContainer {
+    width: 100%;
+    padding: 70px 30px 20px; }
+    Footer .FooterContainer .SocialIcons {
+      display: flex;
+      justify-content: center; }
+      Footer .FooterContainer .SocialIcons a {
+        text-decoration: none;
+        padding: 10px;
+        background-color: white;
+        margin: 20px;
+        border-radius: 50%; }
+        Footer .FooterContainer .SocialIcons a i {
+          font-size: 2.5em;
+          color: Black;
+          opacity: 0.9; }
+        Footer .FooterContainer .SocialIcons a:hover {
+          background-color: Black;
+          transition: 0.5s;
+          border-radius: 35%; }
+          Footer .FooterContainer .SocialIcons a:hover i {
+            color: #a14bda;
+            transition: 0.5s; }
+    Footer .FooterContainer .FooterNav {
+      margin: 30px 0; }
+      Footer .FooterContainer .FooterNav ul {
+        display: flex; }
+        Footer .FooterContainer .FooterNav ul li a {
+          color: white;
+          margin: 20px;
+          text-decoration: none;
+          font-size: 1.3em;
+          opacity: 0.7;
+          transition: 0.5s; }
+          Footer .FooterContainer .FooterNav ul li a:hover {
+            opacity: 1;
+            color: #a14bda; }
+    Footer .FooterContainer .FooterBotton {
+      background-color: black;
+      padding: 20px;
+      text-align: center; }
+      Footer .FooterContainer .FooterBotton p {
+        color: white; }
+
+/* Celular */
+@media (max-width: 594px) {
+  .Iniciop,
+  .Iniciodos,
+  .Iniciotres,
+  .Iniciocuatro,
+  .Inicioquinto,
+  .Pluinicio,
+  .Pluiniciodos,
+  .Pluiniciotres,
+  .PlEinicio,
+  .PlEiniciodos,
+  .PlEiniciotres {
+    flex-direction: column;
+    text-align: start; }
+  .Iniciop img,
+  .Iniciodos img,
+  .Iniciotres img,
+  .Iniciocuatro div,
+  .Inicioquinto img,
+  .Pluinicio img,
+  .Pluiniciodos img,
+  .Pluiniciotres img,
+  .PlEinicio img,
+  .PlEiniciodos img,
+  .PlEiniciotres img {
+    width: 50%;
+    height: auto;
+    margin: 20px auto; }
+  .Iniciop div h2,
+  .Iniciodos div h2,
+  .Iniciotres div h2,
+  .Iniciocuatro div h2,
+  .Inicioquinto div h2,
+  .Pluinicio div h2,
+  .Pluiniciodos div h2,
+  .Pluiniciotres div h2,
+  .PlEinicio div h2,
+  .PlEiniciodos div h2,
+  .PlEiniciotres div h2,
+  .PlEiniciotres div p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.5; }
+  .Iniciop div p,
+  .Iniciodos div p,
+  .Iniciotres div p,
+  .Iniciocuatro div p,
+  .Inicioquinto div p,
+  .Pluinicio div p,
+  .Pluiniciodos div p,
+  .Pluiniciotres div p,
+  .PlEinicio div p,
+  .PlEiniciodos div p {
+    font-size: 14px;
+    line-height: 1.5; }
+  .SocialIcons {
+    display: none; }
+  .FooterNav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; } }
+
+/* Tablet */
+@media (min-width: 595px) and (max-width: 895px) {
+  .Iniciop,
+  .Iniciodos,
+  .Iniciotres,
+  .Iniciocuatro,
+  .Inicioquinto,
+  .Pluinicio,
+  .Pluiniciodos,
+  .Pluiniciotres,
+  .PlEinicio,
+  .PlEiniciodos,
+  .PlEiniciotres {
+    flex-direction: column;
+    text-align: center; }
+  .Iniciop img,
+  .Iniciodos img,
+  .Iniciotres img,
+  .Iniciocuatro div,
+  .Inicioquinto img,
+  .Pluinicio img,
+  .Pluiniciodos img,
+  .Pluiniciotres img,
+  .PlEinicio img,
+  .PlEiniciodos img,
+  .PlEiniciotres img {
+    width: 80%;
+    margin: 20px auto; } }
