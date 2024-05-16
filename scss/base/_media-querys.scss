@@ -72,7 +72,36 @@
         justify-content: center;
         flex-direction: column;
     }
+
+    .Nosot-section .Nosot-content {
+        grid-template-columns: 1fr;
+    }
+
+    .contacto-section .contacto-content {
+        grid-template-columns: 1fr;
+    }
+
+    .contacto-section .contacto-info,
+    .contacto-section .contacto-formulario {
+        margin-bottom: 0;
+    }
+
+    .contacto-section .contacto-formulario h4 {
+        font-size: 25px;
+    }
+
+    .contacto-section .contacto-formulario form .formulario-group input,
+    .contacto-section .contacto-formulario form .formulario-group textarea {
+        padding: 8px;
+    }
+
+    .contacto-section .contacto-formulario form .BotonContac {
+        padding: 8px 16px;
+        font-size: 14px;
+
+    }
 }
+
 
 /* Tablet */
 @media (min-width: 595px) and (max-width: 895px) {
